@@ -13,7 +13,7 @@
 <img src="./images/portal04-1.png" /><br/>
 <img src="./images/portal04-2.png" /><br/>
 <img src="./images/app05.png" width="70%"/><br/>
-<img src="./images/app06.png" width="70%"/><br/>
+<img src="./images/app06.png" /><br/>
 <img src="./images/app07.png" width="70%"/><br/>
 <img src="./images/app08.png" width="70%"/><br/>
 <img src="./images/portal08-1.png" /><br/>
