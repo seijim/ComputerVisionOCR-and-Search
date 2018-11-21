@@ -25,7 +25,7 @@
 <img src="./images/app16.png" /><br/>
 <img src="./images/app17.png" /><br/>
 <img src="./images/app18.png" /><br/>
-<img src="./images/app19.png" /><br/>
+<img src="./images/app19.png" width="70%"/><br/>
 <img src="./images/app20.png" /><br/>
 <img src="./images/app21.png" /><br/>
 <img src="./images/app22.png" /><br/>
