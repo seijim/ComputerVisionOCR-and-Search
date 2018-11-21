@@ -1,0 +1,20 @@
+﻿{
+    "value":[
+        {
+            "id":"abc",
+            "document_type":"jpg",
+            "project_name":"四谷駅前ビル工事プロジェクト",
+            "project_location":"四谷",
+            "blob_path":"yotsuya/abc.jpg",
+            "ocr_content":"品質工事記録書　とんでもない　これでどうだ",
+            "additional_information":"補足はなし",
+            "posting_yearmonth":"201806",
+            "posting_date":"2018-08-18T11:21:39.6030516+09:00",
+            "post_until":"2100-01-01T00:00:00+09:00",
+            "posting_updated":"1900-01-01T00:00:00+09:00",
+            "process_date":"0001-01-01T00:00:00+00:00",
+            "geo_location":{"type":"Point","coordinates":[-0.15,0.981]},
+            "tags":["test1","test2","test3"]
+        }
+    ]
+}

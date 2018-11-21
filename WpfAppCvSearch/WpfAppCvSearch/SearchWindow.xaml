@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfAppCvSearch.SearchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppCvSearch"
+        mc:Ignorable="d"
+        Title="検索画面 - Azure Search" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="0">
+            <TextBox Name="TextBoxInput" Margin="5" Width="400" />
+            <Button Name="ButtonSearch" Background="Blue" Foreground="White" Content="検索" Width="60" Margin="5" Click="ButtonSearch_Click" />
+            <TextBox Name="TextBoxCurrentPage" TextAlignment="Right" Margin="5" Width="50" ToolTip="カレントのページを表示します"/>
+            <Label Name="LabelTotalPages" Content="/"/>
+            <Label Content="pages  "/>
+        </WrapPanel>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <DataGrid Grid.Column="0" Name="DataGridResult" Margin="5,5,5,4.5" IsReadOnly="True" SelectionChanged="DataGridResult_SelectionChanged" />
+            <Image Grid.Column="1" Name="ImagePreview" Margin="5,5,5,4.5" Grid.ColumnSpan="3" />
+        </Grid>
+        <TextBox Name="TextBoxStatusMessage" Text="" Background="LightGray" Grid.Row="2" />
+
+    </Grid>
+</Window>
