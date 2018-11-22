@@ -10,11 +10,12 @@
 <img src="./images/app01.png" width="70%"/><br/><br/>
 最初に、Computer Vision API (OCR) V2 用のエンドポイントと API Key を入力します。
 <img src="./images/app02.png" width="70%"/><br/><br/>
-Azure Portal で、Computer Vision API を作成すると、以下の２つの画面からエンドポイントと API Key を取得できます。アプリケーションの設定画面には、ここで得られたエンドポイントの文字列に、"vision/v2.0/ocr" を加えて設定してください。 
+<a href="https://portal.azure.com/">Azure Portal</a> で、AI + Machine Learning カテゴリーにある Cognitive Services - Computer Vision を作成すると、以下の２つの画面からエンドポイントと API Key を取得できます。アプリケーションの設定画面には、ここで得られたエンドポイントの文字列に、"vision/v2.0/ocr" を加えて入力してください。 
 <img src="./images/portal02-1.png" /><br/>
 <img src="./images/portal02-2.png" /><br/><br/>
-
-<img src="./images/app03.png" width="70%"/><br/>
+次に、Azure Search のサービス名と API Key を入力します。
+<img src="./images/app03.png" width="70%"/><br/><br/>
+<a href="https://portal.azure.com/">Azure Portal</a> で、Azure Search サービスを作成する手順を記載しておきます。
 <img src="./images/portal03-1.png" /><br/>
 <img src="./images/portal03-2.png" /><br/>
 <img src="./images/portal03-3.png" /><br/>
