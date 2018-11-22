@@ -15,12 +15,18 @@
 <img src="./images/portal02-2.png" /><br/><br/>
 次に、Azure Search のサービス名と API Key を入力します。
 <img src="./images/app03.png" width="70%"/><br/><br/>
-<a href="https://portal.azure.com/">Azure Portal</a> で、Azure Search サービスを作成する手順を記載しておきます。
-<img src="./images/portal03-1.png" /><br/>
-<img src="./images/portal03-2.png" /><br/>
-<img src="./images/portal03-3.png" /><br/>
-<img src="./images/app04.png" width="70%"/><br/>
-<img src="./images/portal04-1.png" /><br/>
+<a href="https://portal.azure.com/">Azure Portal</a> で、Azure Search サービスを作成する手順を記載しておきます。<br/>
+「＋リソースの作成」⇒「Web」⇒「Azure Search」を選択してください。 
+<img src="./images/portal03-1.png" /><br/><br/>
+「URL」にグローバルでぶつからないサービス名を入れ、適切な「Resouce group」を選択するか、新規で作成し、「Region (場所)」には「西日本」を選択します。最後に、「Pricing tier」ですが、機能検証レベルであれば、「Free」か「Basic」を選択肢、「作成」をクリックしてください。
+<img src="./images/portal03-2.png" /><br/><br/>
+数分で Azure Search サービスが作成されますので、作成された後、以下の画面からサービス名と API Key を取得してください。
+<img src="./images/portal03-3.png" /><br/><br/>
+設定の最後は、Storage Account 名、Storage Key、Blob コンテナー名の入力です。
+<img src="./images/app04.png" width="70%"/><br/><br/>
+<a href="https://portal.azure.com/">Azure Portal</a> で、Storage Account (ストレージ アカウント) を作成後、以下の画面から Storage Account 名と Storage key を取得してください。
+<img src="./images/portal04-1.png" /><br/><br/>
+
 <img src="./images/portal04-2.png" /><br/>
 <img src="./images/app05.png" width="70%"/><br/>
 <img src="./images/app06.png" /><br/>
