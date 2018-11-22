@@ -37,14 +37,21 @@ WPF アプリケーションのメイン画面が表示されますので、「�
 <img src="./images/app08.png" width="70%"/><br/><br/>
 インデックスの作成が成功しますと、<a href="https://portal.azure.com/">Azure Portal</a> の該当の Azure Search サービスで、以下のようにインデックスが作成されたことが分かります。この時点では、データが投入されていない為、「DOCUMENT COUNT」の値は、０となります。<br/>
 <img src="./images/portal08-1.png" /><br/><br/>
-
-<img src="./images/app11.png" /><br/>
-<img src="./images/app12.png" width="70%"/><br/>
-<img src="./images/app13.png" /><br/>
+### アプリケーションの利用
+これで、初期設定はすべて完了しましたので、アプリケーションの利用を開始します。<br/>
+「画像ファイルの選択」をクリックします。<br/>
+<img src="./images/app11.png" /><br/><br/>
+スキャンされた画像文書を選択します。複数選択可能です。<br/>
+<img src="./images/app12.png" width="70%"/><br/><br/>
+リストボックスに読み込まれた画像ファイル名をクリックすると、画像のイメージがプレビューされます。<br/>
+<img src="./images/app13.png" /><br/><br/>
+「画像分析プレビュー」をクリックすると、クリックされている画像ファイル名に対して OCR 機能のみが呼び出され、TEXT もしくは JSON 形式で、OCR で分析された結果が表示されます。これは、OCR の精度を確認する為だけの機能です。<br/>
 <img src="./images/app14.png" /><br/>
-<img src="./images/app15.png" /><br/>
+<img src="./images/app15.png" /><br/><br/>
+「タグ登録」メニューから「タグ登録画面の表示」をクリックすると、OCR で読み取られたテキストに対して、正規表現を使ってマッチさせることの出来るカスタムのタグ付与ルールを登録することが可能です。このタグ付与ルールは、設定画面で設定した Storage Account 名と Storage Key を使って、Azure Table Storage に登録されます。タグ付与のルールが登録されていると、検索インデックスへの登録時に正規表現を適用してマッチした場合に自動的にタグが付与されます。<br/>
 <img src="./images/app16.png" /><br/>
-<img src="./images/app17.png" width="70%"/><br/>
+<img src="./images/app17.png" width="70%"/><br/><br/>
+メイン画面の「画像ファイル分析 ＆ 検索インデックスへの登録」ボタンを押すと、リストボックスに読み込まれている全ての画像ファイルに対して、OCR を実行し、Blob Storage へのアップロード、タグ付与ルールの適用、Azure Search 「qcdocs」インデックスへのデータ登録が実施されます。<br/>
 <img src="./images/app18.png" /><br/>
 <img src="./images/app19.png" width="70%"/><br/>
 <img src="./images/app20.png" /><br/>
