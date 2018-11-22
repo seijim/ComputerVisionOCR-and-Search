@@ -3,6 +3,9 @@
 <br/><br/>
 ## アプリケーション構成
 <img src="./images/app00.png" /><br/>
+<br/><br/>
+## アプリケーションの実行
+### 初期設定
 <img src="./images/app01.png" width="70%"/><br/>
 <img src="./images/app02.png" width="70%"/><br/>
 <img src="./images/portal02-1.png" /><br/>
