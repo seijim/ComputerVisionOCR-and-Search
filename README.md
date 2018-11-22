@@ -28,15 +28,16 @@
 <img src="./images/portal04-1.png" /><br/><br/>
 Storage Account の Blob カテゴリーからコンテナーを以下の「＋コンテナー」ボタンから作成してください。ここでは、「ocrimages」という名称のコンテナーを作成しています。
 <img src="./images/portal04-2.png" /><br/><br/>
-一度、「設定の保存」ボタンをクリックし、設定内容を保存させます。
+一度、「設定の保存」ボタンをクリックし、設定内容を保存します。
 <img src="./images/app05.png" width="70%"/><br/><br/>
 WPF アプリケーションのメイン画面が表示されますので、「初期設定」メニューの「設定画面の表示」をクリックします。
 <img src="./images/app06.png" /><br/><br/>
-再度、設定画面が表示されますので、設定内容に間違いがないか確認した後、「検索インデックスの作成 ＆ 削除」をクリックします。これにより、アプリケーションが Azure Search Service REST API を使用して、ソースコードの「WpfAppCvSearch\WpfAppCvSearch\Resources」フォルダーにある「qcdocs.schema.json」スキーマファイルの定義に基づいたインデックス「qcdocs」を Azure Search Service に作成します。 
+再度、設定画面が表示されますので、設定内容に間違いがないか確認した後、「検索インデックスの作成 ＆ 削除」をクリックします。これにより、アプリケーションが Azure Search Service REST API を使用して、ソースコードの「WpfAppCvSearch\WpfAppCvSearch\Resources」フォルダーにある「qcdocs.schema.json」スキーマファイルの定義に基づいたインデックス「qcdocs」を Azure Search サービス上に作成します。既に同名のインデックスが存在する場合、削除されますので、ご注意ください。 
 <img src="./images/app07.png" width="70%"/><br/>
 <img src="./images/app08.png" width="70%"/><br/><br/>
+インデックスの作成が成功しますと、<a href="https://portal.azure.com/">Azure Portal</a> の該当の Azure Search サービスで、以下のようにインデックスが作成されたことが分かります。この時点では、データが投入されていない為、「DOCUMENT COUNT」の値は、０となります。
+<img src="./images/portal08-1.png" /><br/><br/>
 
-<img src="./images/portal08-1.png" /><br/>
 <img src="./images/app11.png" /><br/>
 <img src="./images/app12.png" width="70%"/><br/>
 <img src="./images/app13.png" /><br/>
