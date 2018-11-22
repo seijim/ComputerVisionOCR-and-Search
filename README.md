@@ -18,7 +18,7 @@
 <a href="https://portal.azure.com/">Azure Portal</a> で、Azure Search サービスを作成する手順を記載しておきます。<br/>
 「＋リソースの作成」⇒「Web」⇒「Azure Search」を選択してください。 
 <img src="./images/portal03-1.png" /><br/><br/>
-「URL」にグローバルでぶつからないサービス名を入れ、適切な「Resouce group」を選択するか、新規で作成し、「Region (場所)」には「西日本」を選択します。最後に、「Pricing tier」ですが、機能検証レベルであれば、「Free」か「Basic」を選択肢、「作成」をクリックしてください。
+「URL」にグローバルでぶつからないサービス名を入れ、適切な「Resouce group」を選択するか、新規で作成し、「Region (場所)」には「西日本」を選択します。最後に、「Pricing tier」ですが、機能検証レベルであれば、「Free」か「Basic」を選択し、「作成」をクリックしてください。
 <img src="./images/portal03-2.png" /><br/><br/>
 数分で Azure Search サービスが作成されますので、作成された後、以下の画面からサービス名と API Key を取得してください。
 <img src="./images/portal03-3.png" /><br/><br/>
@@ -26,12 +26,16 @@
 <img src="./images/app04.png" width="70%"/><br/><br/>
 <a href="https://portal.azure.com/">Azure Portal</a> で、Storage Account (ストレージ アカウント) を作成後、以下の画面から Storage Account 名と Storage key を取得してください。
 <img src="./images/portal04-1.png" /><br/><br/>
-
-<img src="./images/portal04-2.png" /><br/>
-<img src="./images/app05.png" width="70%"/><br/>
-<img src="./images/app06.png" /><br/>
+Storage Account の Blob カテゴリーからコンテナーを以下の「＋コンテナー」ボタンから作成してください。ここでは、「ocrimages」という名称のコンテナーを作成しています。
+<img src="./images/portal04-2.png" /><br/><br/>
+一度、「設定の保存」ボタンをクリックし、設定内容を保存させます。
+<img src="./images/app05.png" width="70%"/><br/><br/>
+WPF アプリケーションのメイン画面が表示されますので、「初期設定」メニューの「設定画面の表示」をクリックします。
+<img src="./images/app06.png" /><br/><br/>
+再度、設定画面が表示されますので、設定内容に間違いがないか確認した後、「検索インデックスの作成 ＆ 削除」をクリックします。これにより、アプリケーションが Azure Search Service REST API を使用して、ソースコードの「WpfAppCvSearch\WpfAppCvSearch\Resources」フォルダーにある「qcdocs.schema.json」スキーマファイルの定義に基づいたインデックス「qcdocs」を Azure Search Service に作成します。 
 <img src="./images/app07.png" width="70%"/><br/>
-<img src="./images/app08.png" width="70%"/><br/>
+<img src="./images/app08.png" width="70%"/><br/><br/>
+
 <img src="./images/portal08-1.png" /><br/>
 <img src="./images/app11.png" /><br/>
 <img src="./images/app12.png" width="70%"/><br/>
