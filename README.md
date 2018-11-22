@@ -1,5 +1,7 @@
-# Computer Vision API (OCR) v2 と Azure Search を用いて、スキャンされた画像文書を簡単に検索できるようにしたサンプル WPF アプリケーション
-<br/>
+# Computer Vision API (OCR) v2 と Azure Search を用いて、スキャンされた画像文書を簡単に検索＆プレビューできるようにしたサンプル WPF アプリケーション
+アプリケーションの実行に当たっては、「WpfAppCvSearch」フォルダーのソリューションファイルを Visual Studio 2017 で開き、ビルド/リビルドしてください。ビルド時にエラーになる場合、一度、ソリューションのクリーンをしてから再度ビルドをしてください。ソースコードが不要な方には、バイナリも用意しておりますので、Installer.zip ファイルをダウンロードして解凍し、setup.exe を起動してインストールしてください。
+<br/><br/>
+## アプリケーション構成
 <img src="./images/app00.png" /><br/>
 <img src="./images/app01.png" width="70%"/><br/>
 <img src="./images/app02.png" width="70%"/><br/>
